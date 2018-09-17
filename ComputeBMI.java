@@ -12,7 +12,8 @@ public class ComputeBMI{
   double  height = input.nextDouble();
   double weightInKILOGRAMS = weight * KILOGRAMS_PER_POUND;
   double heightInMeters= height * METERS_PER_INCH;
-
+System.out.println("Your have weight " + weightInKILOGRAMS);
+System.out.println("Your have height " + heightInMeters);
   }
 
 }
